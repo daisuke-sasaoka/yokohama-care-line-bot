@@ -5,10 +5,10 @@ from linebot.v3.webhooks import MessageEvent, TextMessageContent
 import os
 from dotenv import load_dotenv
 
-WARD_CONTACTS = {
-    "青葉区": "青葉区役所 高齢・障害支援課 電話: 045-xxx-xxxx",
-    "港北区": "港北区役所 高齢・障害支援課 電話: 045-xxx-xxxx",
-    "中区": "中区役所 高齢・障害支援課 電話: 045-xxx-xxxx",
+ISOGO_CONTACTS = {
+    "要介護認定": "...",
+    "地域包括支援センター": "...",
+    "介護保険料": "...",
 }
 
 load_dotenv()
